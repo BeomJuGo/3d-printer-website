@@ -2,7 +2,7 @@ const KAKAO_URL = "http://pf.kakao.com/_nxnkCX/chat";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0f0f0f]">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0f0f0f]/70">
       <div className="absolute inset-0 bg-gradient-to-br from-orange-950/30 via-transparent to-yellow-950/20 pointer-events-none" />
 
       <div className="absolute inset-0 pointer-events-none">

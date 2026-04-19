@@ -2,7 +2,7 @@ const KAKAO_URL = "http://pf.kakao.com/_nxnkCX/chat";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 bg-[#0f0f0f]/92">
+    <section id="contact" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0f0f0f]/70">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <div className="bg-gradient-to-br from-orange-950/40 to-yellow-950/30 border border-orange-500/20 rounded-3xl p-10 md:p-16">
           <div className="text-6xl mb-6">💬</div>

@@ -8,7 +8,7 @@ const PLANS = [
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="py-24 bg-[#111111]/80">
+    <section id="pricing" className="py-24 bg-[#111111]/92">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-black mb-4">

@@ -13,7 +13,7 @@ const TEMPLATES = [
   { id: 5, title: "반지/액세서리", category: "커스텀 기념품", description: "커플링, 이니셜 반지 등 커스텀 주얼리", color: "from-rose-900/50 to-red-900/50", icon: "💍", tags: ["반지", "액세서리", "커플"] },
   { id: 6, title: "드론/RC 부품", category: "부품/기구물", description: "드론 프레임, 마운트, RC 차 부품", color: "from-gray-900/50 to-slate-900/50", icon: "🚁", tags: ["드론", "RC", "경량"] },
   { id: 7, title: "화분/플랜터", category: "인테리어 소품", description: "독특한 디자인의 인테리어 화분", color: "from-emerald-900/50 to-lime-900/50", icon: "🌿", tags: ["화분", "인테리어", "생활"] },
-  { id: 8, title: "게임 캐릭터 피규어", category: "피규어/캐릭터", description: "좋아하는 게임 캐릭터 고품질 피규어", color: "from-violet-900/50 to-purple-900/50", icon: "🎮", tags: ["게임", "피규어", "도색 가능"] },
+  { id: 8, title: "게임 캐릭터 피규어", category: "피규어/캐릭터", description: "좋아하는 게임 캐릭터 고품질 피규어", color: "from-violet-900/50 to-purple-900/50", icon: "🎮", tags: ["게임", "피규어", "독색 가능"] },
 ];
 
 export default function Templates() {
@@ -21,7 +21,7 @@ export default function Templates() {
   const filtered = activeCategory === "전체" ? TEMPLATES : TEMPLATES.filter((t) => t.category === activeCategory);
 
   return (
-    <section id="templates" className="py-24 bg-[#111111]/80">
+    <section id="templates" className="py-24 bg-[#111111]/92">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-black mb-4">
